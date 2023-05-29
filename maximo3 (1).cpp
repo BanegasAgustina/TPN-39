@@ -23,10 +23,10 @@ int CalculaMax(int a,int b,int c){
   if(a>b){
       m=a;
   }
-   else if(c>a){
+   if(c>a){
       m=c;
   }
-  else if(b>a){
+   if(b>a){
       m=b;
   }
   return m;
